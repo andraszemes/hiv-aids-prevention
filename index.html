@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mládež SČK | Svetový deň boja proti HIV/AIDS</title>
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="hap_logo.png" alt="Logo HIV/AIDS prevencie">
+            </div>
+
+            <div class="holder">
+                <div class="candle" id="candle">
+                    <div class="thread"></div>
+                    <div class="blinking-glow"></div>
+                    <div class="glow"></div>
+                    <div class="flame"></div>
+                </div>
+            </div>
+
+            <span id="down-arrow">
+                <a href="#thank-you-note">
+                    <i class="far fa-arrow-alt-circle-down"></i>
+                </a>
+            </span>
+
+            <span id="thank-you-note">Ďakujeme, že si zapálil sviečku na podporu kampane!</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Svetový deň boja proti HIV/AIDS</h1>
+
+            <p><strong>Výskyt HIV/AIDS je celosvetovým problémom. Čoraz viac ľudí trpí AIDS syndrómom a preto čoraz viac ľudí naň aj, bohužiaľ, umiera. Od roku 1988 sa 1. december označuje ako Svetový deň boja proti HIV/AIDS. Pre tento deň vo svete vznikla špeciálna udalosť, ktorou je sviečkový pochod.</strong></p>
+
+            <p>Pochod v tento deň má vyjadriť solidaritu a súcit s ľuďmi, ktorí sú HIV pozitívni a s tými, ktorí AIDS ochoreniu podľahli.</p>
+
+            <p>Sviečkový pochod sa zvyčajne koná z bodu A do bodu B, pričom ľudia kráčajúci s davom v ruke môžu držať sviečky, no nemusia.</p>
+
+            <p>Počas pochodu sa vyjadruje myšlienka súcitu a solidarity, či už transparentmi alebo pomyslením.</p>
+
+            <p>My, ako Mládež SČK, ktorej problematika HIV/AIDS nie je ľahostajná a už vôbec nie cudzia, organizujeme sviečkové pochody v rámci kampane či už na centrálnej, alebo lokálnej úrovni.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <a href="https://redcross.sk/youth/projekt-hiv-aids-prevencia/" target="blank">Mládež Slovenského Červeného kríža</a> 2020.</p>
+        </div>
+    </footer>
+</body>
+
+<script>
+    document.getElementById('candle').onclick = function() {
+        document.getElementById('down-arrow').style.visibility = "visible";
+        document.getElementById('thank-you-note').style.visibility = "visible";
+        for (var i = 0; i < this.children.length; i++) {
+            this.children[i].style.visibility = "visible";
+        }
+    };
+</script>
+
+</html>
+
+
+
+
